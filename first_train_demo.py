@@ -47,7 +47,7 @@ class Batch:
 def data_gen(V, slen, batch, nbatches, device):
     """
     Generate random data for a src-tgt copy task.
-    V: 词典数量，取值范围[0, V-1]，约定0作为特殊符号使用代表padding
+    V: 词典数量，取值范围[0, V-1]，约定0作为特殊符号使用代表padding ====
     slen: 生成的序列数据的长度
     batch: batch_size
     nbatches: number of batches to generate
